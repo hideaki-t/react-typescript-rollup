@@ -5,13 +5,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "rollupw": "rollup -cw"
   },
   "devDependencies": {
     "rollup": "^0.43.0",
     "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-livereload": "^0.4.0",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-serve": "^0.3.0",
     "rollup-plugin-typescript": "^0.8.1",
     "rollup-watch": "^4.0.0",
     "typescript": "^2.3.4"
